@@ -1,0 +1,63 @@
+console.log(document.querySelector('.message').textContent);
+
+// Chang textContent of class of 'message
+
+document.querySelector('.message').textContent = 'correct number';
+
+// change d score and ? textcontent
+
+let score = document.querySelector('.score')
+
+score.textContent = 10
+let scores = document.querySelector('.number')
+
+// scores.textContent = 13
+
+const Number2 = () =>{
+    let randomNumber1 = Math.floor(Math.random() * 5 + 1)
+
+    scores.textContent = randomNumber1
+
+    if ( Number1 === Number2) {
+        para.innerText += ' and blessing is here'
+        
+    } else {
+        // document.querySelector('.change').value = WRONG
+        
+    }
+}
+
+// scores.addEventListener('click', Number2)
+
+// change d input field,so we can actually get d data from here and also set...to get d actual value,we set d value
+
+// console.log(document.querySelector('.guess').value = 23);
+
+// document.querySelector('.guess').value = 23
+
+
+let check = document.querySelector('.check')
+let para = document.querySelector('h1')
+// let box = document.querySelector('.guess')
+
+const Number1 = () =>{
+    let randomNumber = Math.floor(Math.random() * 5 + 1)
+
+    document.querySelector('.guess').value = randomNumber
+
+    if ( Number1 === Number2) {
+        para.innerText += ' and blessing is here'
+        
+    } else {
+        // document.querySelector('.change').value = WRONG
+        
+    }
+}
+
+check.addEventListener('click', Number1)
+check.addEventListener('click', Number2)
+
+
+
+
+

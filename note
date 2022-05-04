@@ -35,6 +35,11 @@ const Number2 = () =>{
 
 // document.querySelector('.guess').value = 23
 
+if (trial == 0) {
+    answer.innerText = 'GAMEOVER'
+    onClick = window.location.reload
+}
+
 
 let check = document.querySelector('.check')
 let para = document.querySelector('h1')

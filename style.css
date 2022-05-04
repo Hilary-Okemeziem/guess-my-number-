@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 * {
   margin: 0;
@@ -116,4 +116,16 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+.text{
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+h6{
+  color: yellow;
+  font-size: 20px;
 }
